@@ -140,6 +140,7 @@ h4 {
 .icon {
     margin-right: 0.5em;
     height: 1.7em;
+    z-index: 2;
 }
 
 .reaction {
