@@ -29,6 +29,7 @@ body {
 
 .principal {
     z-index: 2;
+    position: relative;
     border-radius: 40px;
     width: 25em;
     height: 35em;
@@ -141,7 +142,7 @@ h4 {
 .icon {
     margin-right: 0.5em;
     height: 1.7em;
-    z-index: 2;
+    display: inline-block;
 }
 
 .reaction {
