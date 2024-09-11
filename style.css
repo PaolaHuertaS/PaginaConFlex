@@ -19,7 +19,16 @@ body {
     align-items: center;
 }
 
+.container {
+    position: relative;
+    width: 50em; 
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(235, 233, 233, 0.668);
+}
+
 .principal {
+    z-index: 2;
     border-radius: 40px;
     width: 25em;
     height: 35em;
@@ -58,7 +67,6 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -119,6 +127,7 @@ h4 {
     padding: 1em;
     width: 72%;
     height: 4%;
+
 }
 
 .nombre {
@@ -158,13 +167,15 @@ h4 {
 }
 
 .score {
-    color: var(--color-darkgrayblue);
     font-weight: bold;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--color-darkgrayblue);
 }
-
+ 
 .total {
     color: var(--color-darkgrayblue);
     opacity: 0.5;
+    font-weight: 800;
 }
 
 .hanken-grotesk-500 {
