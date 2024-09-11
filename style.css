@@ -57,6 +57,7 @@ body {
 }
 
 .estadisticas {
+    z-index: 1;
     color: black;
     border-radius: 40px;
     width: 25em;
@@ -207,7 +208,12 @@ h4 {
         width: 100%;
         background-color: white;
     }
-     
+    
+     .container {
+        flex-direction: column;
+        width: 100%;
+    }
+    
     .principal {
         width: 100%;
         height: auto;
